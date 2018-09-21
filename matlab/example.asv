@@ -1,0 +1,7 @@
+m = 10;
+n = 30;
+lambda = 1;
+
+v = randn(m,n);
+
+x2 = prox_matrix(v,lambda);
